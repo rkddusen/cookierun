@@ -3,9 +3,15 @@
 #include<Windows.h>
 #include<cstdlib>
 #include<ctime>
+#include<conio.h>
 #define row 20
 #define col 50
 #define num 4
+#define ch_row 2
+#define ch_col 1
+
+#define JUMP 1
+#define SLIDE 2
 
 int map[row][col] = {
 		1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -135,4 +141,8 @@ int map_add[num][row-1][12] = {
 		0,0,0,0,0,0,0,0,0,0,0,0,
 		0,0,0,0,0,0,0,0,0,0,0,0,
 	},
+};
+int char_map[ch_row][ch_col] = {
+	1,\
+	1,
 };
